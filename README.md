@@ -1,1 +1,1 @@
-# js-paliedispari
+# Diciottesimo Esercizio Corso Boolean
