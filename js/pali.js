@@ -6,10 +6,10 @@
 var input = prompt('Inserisci una parola per verificare se è palindroma'); // Prompt dell'utente
 var check = palindrome(input); // Creo una variabile che equivalga al palindromo dell'inserimento
 
-if (check) { // se il risultato della funzione è vero o no
-    console.log('Ebbene sì! "' + input + '" è una parola palindroma!');
-} else {
-    console.log('Mi dispiace! "' + input + '" non è una parola palindroma.');
+if (check) { // se il risultato della funzione è vero
+    console.log('Ebbene sì! "' + input + '" è una parola palindroma!'); // Messaggio positivo
+} else { // altrimenti
+    console.log('Mi dispiace! "' + input + '" non è una parola palindroma.'); // Messaggio negativo
 }
 
 function palindrome(str) { // Inizio della funziona per il check del palindromo
